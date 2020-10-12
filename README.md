@@ -1,7 +1,7 @@
 # Coding an Optical Illusion in Python
 ![png](output_15_1.png)
 
-I recently found a cool optical illusion online that makes a black and white image seem colored. It does so by imposing a colored grid on top of the black and white image, tricking your eyes into filling in the rest of the colors. 
+I recently found a cool optical illusion online that makes a black and white image seem colored. It does so by imposing a colored grid on top of the black and white image, tricking your eyes into filling in the rest of the colors. You can try it out on [Google Colab](https://colab.research.google.com/drive/1WJfLJH0mBzXGGeRfvQaxNjQxQaAECwYj?usp=sharing) without downloading any code as well.
 
 ## Getting Started
 Let's replicate this in python. We'll use the open CV library to convert the color image into black and white, and then draw some grid lines over them.
